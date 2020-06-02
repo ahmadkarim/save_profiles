@@ -17,6 +17,9 @@ class Profile(Resource):
 			},
 			'profile3' : {
 				'CP1':'rEukc'
+			},
+			'profile4' : {
+				'CP98':'abcd'
 			}
 		}
 
