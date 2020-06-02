@@ -7,8 +7,15 @@ api = Api(app)
 class Profile(Resource):
 	def get(self):
 		return {
-			'product' : ['a','b','c']
+			'profile1' : {
+				'CH1':'tpAusten',
+				'CH2':'gZlm'
+			},
+			'profile2' : {
+				'SP1':'rEukc',
+				'SP2':'firma1'
 			}
+		}
 
 api.add_resource(Profile, '/')
 
