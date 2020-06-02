@@ -14,6 +14,9 @@ class Profile(Resource):
 			'profile2' : {
 				'SP1':'rEukc',
 				'SP2':'firma1'
+			},
+			'profile3' : {
+				'CP1':'rEukc'
 			}
 		}
 
